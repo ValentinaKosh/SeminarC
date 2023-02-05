@@ -11,11 +11,11 @@ int k = 1;
 Console.Write($"{num} ->");
 while (index <= num)
 {
-   k = index * index * index;
-   Console.Write($" {k}");
-   if (index != num)
-   {
-       Console.Write($", ");
-   }
-   index++;
+    k = index * index * index;
+    Console.Write($" {k}");
+    if (index != num)
+    {
+        Console.Write($", ");
+    }
+    index++;
 }
