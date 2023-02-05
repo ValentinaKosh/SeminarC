@@ -21,9 +21,7 @@ double A = Math.Pow(xb - xa, 2);
 double B = Math.Pow(yb - ya, 2);
 double C = Math.Pow(zb - za, 2);
 
-
 double D = Math.Sqrt(A + B + C);
 double R = Math.Round(D, 2);
 
-
-Console.Write(R);
+Console.Write($"A({xa}, {ya}, {za}); B({xb}, {yb}, {zb}) -> {R}");
