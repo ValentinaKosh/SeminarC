@@ -18,7 +18,6 @@ double[] GetArray(int size, double minValue, double maxValue)
  }
 
 double FindMax(double[] array) 
-
 { 
     double max = array[0]; 
     for (int i = 0; i < array.Length; i++) 
@@ -30,8 +29,6 @@ double FindMax(double[] array)
     } 
     return max; 
 } 
-
- 
 
 double FindMin(double[] array) 
 { 
@@ -50,4 +47,4 @@ double[] array = GetArray(size, 1, 999);
 Console.WriteLine(String.Join(", ", array)); 
 
 double res = FindMax(array) - FindMin(array); 
-Console.WriteLine($"Разность Максимального элемента и Минимального равна {res} ");
+Console.WriteLine($"Разность Максимального и Минимального равна {res} ");
