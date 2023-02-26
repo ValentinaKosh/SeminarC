@@ -76,5 +76,5 @@ WriteArray(secomdMartrix);
 int[,] resultMatrix = new int[m,p];
 
 MultiplyMatrix(firstMartrix, secomdMartrix, resultMatrix);
-Console.WriteLine($"\n Произведение матриц:");
+Console.WriteLine($"Произведение матриц:");
 WriteArray(resultMatrix);
