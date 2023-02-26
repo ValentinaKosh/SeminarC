@@ -10,7 +10,7 @@ Console.Write("Введите размерность массива, X = ");
 int x = int.Parse(Console.ReadLine()!);
 Console.Write("Введите размерность массива, Y = ");
 int y = int.Parse(Console.ReadLine()!);
-Console.Write("Введите количество столбцов матрицы Z = ");
+Console.Write("Введите размерность массива, Z = ");
 int z = int.Parse(Console.ReadLine()!);
 
 int[,,] array3D = new int[x, y, z];
