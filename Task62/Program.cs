@@ -7,7 +7,7 @@
 
 Console.Clear();
 
-int n = 5;
+int n = 5; // размерность массива
 int[,] Matrix = new int[n, n];
 
 int temp = 1;
