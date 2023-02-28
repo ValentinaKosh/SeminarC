@@ -4,10 +4,10 @@
 // M = 4; N = 8  -> 30
 
 Console.Write("Введите число M: ");
-int m = Convert.ToInt32(Console.ReadLine());
+int m = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите число N: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()!);
 
 SumMToN(m, n);
 
