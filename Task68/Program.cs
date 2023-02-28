@@ -8,9 +8,9 @@ int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число N: ");
 int n = int.Parse(Console.ReadLine()!);
 
-AkkermanFunction(m,n);
+AkkermanFunct(m,n);
 
-void AkkermanFunction(int m, int n)
+void AkkermanFunct(int m, int n)
 {
     Console.Write($" M = {m}; N ={n} -> A({m},{n}) -> {Akkerman(m, n)}"); 
 }
