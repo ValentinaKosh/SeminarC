@@ -6,14 +6,14 @@ Console.WriteLine("Введите массив строк через запят�
 String stroka = Console.ReadLine(); 
 M = stroka.Split(',');
 var result = new string[M .Length];
-var realSize = 0;
+var rSize = 0;
     foreach (var value in M )
     {
     if (value.Length < 4)
         {
-        result[realSize] = value;
-        realSize++;
+        result[rSize] = value;
+        rSize++;
         }
     }
-Console.Write(string.Join(Environment.NewLine, result, 0, realSize));
+Console.Write(string.Join(Environment.NewLine, result, 0, rSize));
 Console.ReadKey(true);
